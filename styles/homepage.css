@@ -1,22 +1,41 @@
-h1 {
-    background-color: lightcoral;
-    color: white;
+body {
+    background-color: rgb(247, 239, 212);
+}
+
+.title {
+    text-align: center;
+    color: rgb(241, 116, 116);
+    border: 1px solid rgb(241, 116, 116);
+    margin-top: 0;
     font-size: 50px;
 }
 
-.food{
-    font-size: 17px;
-    color: lightslategray;
+.foods{
+    padding-right: 0;
+    display:inline-block;
 }
+
+.link{
+    font-size: 17px;
+    color: rgb(170, 73, 73);
+    display:block;
+    font-size: 20px;
+    padding: .8em;
+    background-color: rgb(240, 197, 148);
+    text-decoration: none;
+    margin: 15px;
+    
+}
+
 
 #fried_chicken {
 
 }
 
-#ice_cream_cake {
-
+#brooklyn_pizza {
+    
 }
 
-#brooklyn_pizza {
-
+#ice_cream_cake {
+    
 }
